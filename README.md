@@ -1,6 +1,7 @@
 Simple tracking program. It uses a (any size) chessboard, a webcam and sends the chessboard position via network (UDP protocol).
 
 *Installation*
+
 You need QT(>=4) and OpenCV libraries, plus qmake and make buiding tools.
 
 Copy this repository
@@ -20,6 +21,7 @@ make
 ```
 
 *Transformation matrix*
+
 4x4 Transformation matrix is transmitted as 16 doubles using the UDP protocol. 
 
 ```
